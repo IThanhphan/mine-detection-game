@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header-game {
+    height: 100px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: rgb(192, 192, 192);
+}
+
+.play-btn {
+    width: 150px;
+    height: 50px;
+    background: greenyellow;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 50px
+}
+
+.display {
+    width: 150px;
+    height: 50px;
+    border: 1px solid red;
+    background: black;
+    position: absolute;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.display-time {
+    left: 50px;
+}
+
+.display-count {
+    left: 250px;
+}
+
+#game-area {
+    cursor: pointer;
+}
