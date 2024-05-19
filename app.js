@@ -238,6 +238,10 @@ class Board {
             this.spread(x, y+1);
             this.spread(x-1, y);
             this.spread(x, y-1);
+            this.spread(x-1, y-1);
+            this.spread(x-1, y+1);
+            this.spread(x+1, y+1);
+            this.spread(x+1, y-1);
         }
     }
 
